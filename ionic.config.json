@@ -1,0 +1,7 @@
+{
+  "name": "ionic-react-voting-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
