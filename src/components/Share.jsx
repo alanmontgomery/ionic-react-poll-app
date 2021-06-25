@@ -6,7 +6,7 @@ export const SharePopover = ({ onHide, poll, setShowToast }) => {
 
 	const sharePoll = async () => {
 
-		const shareLink = `http://localhost:8100/page/view/${ poll.id }`;
+		const shareLink = `https://ionic-react-poll-app.netlify.app/page/view/${ poll.id }`;
 		const title = `Check out this poll - ${ poll.question } | ${ poll.totalVotes } votes already`;
 
 		await Share.share({
@@ -22,7 +22,7 @@ export const SharePopover = ({ onHide, poll, setShowToast }) => {
 		
 		await Clipboard.write({
 			
-			string: `http://localhost:8100/page/view/${ poll.id }`
+			string: `https://ionic-react-poll-app.netlify.app/page/view/${ poll.id }`
 		});
 
 		onHide();
