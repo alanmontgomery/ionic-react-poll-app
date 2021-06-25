@@ -1,0 +1,40 @@
+.pollQuestion {
+
+	ion-card-title {
+
+		font-size: 1rem;
+	}
+
+	ion-card-subtitle {
+
+		font-size: 0.7rem;
+	}
+
+	ion-button {
+
+		margin-left: -1.5rem;
+
+		ion-icon {
+
+			font-size: 1rem;
+			margin-left: 0.3rem;
+		}
+	}
+}
+
+.pollAnswer {
+
+	p {
+
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-weight: 600;
+		margin-bottom: 0.2rem;
+	}
+
+	div {
+
+		margin-bottom: 1rem;
+	}
+}
